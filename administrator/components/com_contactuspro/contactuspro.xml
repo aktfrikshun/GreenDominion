@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>Contact Us Pro</name>
+	<creationDate>January 2011</creationDate>
+	<author>C.S. Wilson and Associates</author>
+	<copyright>Copyright (C) 2005 - 2010 by C.S. Wilson and Associates. All rights reserved</copyright>
+	<license>GNU/GPL, see http://www.c-s-wilson.com/license-agreement.html</license>
+	<authorEmail>sales@c-s-wilson.com</authorEmail>
+	<authorUrl>http://www.c-s-wilson.com</authorUrl>
+	<version>1.0.3</version>
+	<description>
+		<![CDATA[<p><img src="components/com_contactuspro/images/logo.png" style="margin:-5px 15px 5px 5px;" align="left" /><br />
+		Thank you for purchasing our Contact Us Pro component for Joomla!<br />
+		For support, please visit our website at <a href="http://www.c-s-wilson.com" target="_blank">http://www.c-s-wilson.com</a>.</p>]]>
+	</description>
+
+    <!-- user part -->
+    <files folder="components/com_contactuspro">
+		<filename>contactuspro.php</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+		<filename>recaptchalib.php</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_contactuspro.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+
+    <menu task="default" img="components/com_contactuspro/images/letter_16.png">Contact Us Pro</menu>
+
+    <files>
+        <filename>contactuspro.xml</filename>
+    </files>
+    <files folder="administrator/components/com_contactuspro">
+        <filename>config.xml</filename>
+		<filename>contactuspro.php</filename>
+		<filename>contactuspro.xml</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <folder>helpers</folder>
+		<folder>images</folder>
+        <folder>models</folder>
+        <folder>tables</folder>
+        <folder>views</folder>
+    </files>
+
+    <languages folder="administrator/language/en-GB">
+        <language tag="en-GB">en-GB.com_contactuspro.menu.ini</language>
+        <language tag="en-GB">en-GB.com_contactuspro.ini</language>
+    </languages>
+
+    </administration>
+
+    <params>
+    </params>
+
+</install>

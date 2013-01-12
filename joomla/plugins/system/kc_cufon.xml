@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>System kc_cufon</name>
+	<author>Laurelle Keashly (developed by Keashly.ca Consulting)</author>
+	<creationDate>February 2010 - updated December-2010</creationDate>
+	<copyright>(C) 2009-2010 Keashly.ca Consulting</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>www.keashly.ca</authorUrl>
+	<version>1.4.0</version>
+	<description>Plugin kc_cufon information</description>
+	<files>
+		<filename plugin="kc_cufon">kc_cufon.php</filename>
+		<filename>kc_cufon/index.html</filename>
+		<filename>kc_cufon/js/cufon-yui.js</filename>
+		<filename>kc_cufon/js/index.html</filename>
+		<filename>kc_cufon/fonts/Prociono_400.font.js</filename>
+		<filename>kc_cufon/fonts/Gabrielle_400.font.js</filename>
+		<filename>kc_cufon/fonts/Olde_English_400.font.js</filename>
+		<filename>kc_cufon/fonts/index.html</filename>
+	</files>
+
+    <languages>
+        <language tag="en-GB">en-GB.plg_system_kc_cufon.ini</language>
+    </languages>
+
+  <params>
+		<param name="loadmootools" type="radio" default="1" label="KC_LOADMOOTOOLS_LABEL" description="KC_LOADMOOTOOLS_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+    <param name="loading" type="radio" default="0" label="KC_LOADING LABEL" description="KC_LOADING DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		<param name="num_fonts" type="list" default="1" label="KC_NUM_FONT LABEL" description="KC_NUM_FONT DESC">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+  	<param name="font1" type="text" default="Gabrielle" label="KC_FONT1 LABEL" description="KC_FONT1 DESC" />
+  	<param name="fontfile1" type="text" default="Gabrielle_400" label="KC_FONTFILE1 LABEL" description="KC_FONTFILE1 DESC" />
+  	<param name="selector1" type="text" default="h1,.componentheading" label="KC_SELECTOR1 LABEL" description="KC_SELECTOR1 DESC" />
+		<param name="font-size1" type="text" default="" label="KC_FONTSIZE1 LABEL" description="KC_FONTSIZE1 DESC" />
+    <param name="font-hover1" type="radio" default="0" label="KC_FONTHOVER1 LABEL" description="KC_FONTHOVER1 DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+  	<param name="font2" type="text" default="Prociono" label="KC_FONT2 LABEL" description="KC_FONT2 DESC" />
+  	<param name="fontfile2" type="text" default="Prociono_400" label="KC_FONTFILE2 LABEL" description="KC_FONTFILE2 DESC" />
+  	<param name="selector2" type="text" default="h2,.contentheading" label="KC_SELECTOR2 LABEL" description="KC_SELECTOR2 DESC" />
+		<param name="font-size2" type="text" default="" label="KC_FONTSIZE2 LABEL" description="KC_FONTSIZE2 DESC" />
+    <param name="font-hover2" type="radio" default="0" label="KC_FONTHOVER2 LABEL" description="KC_FONTHOVER2 DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+  	<param name="font3" type="text" default="" label="KC_FONT3 LABEL" description="KC_FONT3 DESC" />
+  	<param name="fontfile3" type="text" default="" label="KC_FONTFILE3 LABEL" description="KC_FONTFILE3 DESC" />
+  	<param name="selector3" type="text" default="h3" label="KC_SELECTOR3 LABEL" description="KC_SELECTOR3 DESC" />
+		<param name="font-size3" type="text" default="" label="KC_FONTSIZE3 LABEL" description="KC_FONTSIZE3 DESC" />
+    <param name="font-hover3" type="radio" default="0" label="KC_FONTHOVER3 LABEL" description="KC_FONTHOVER3 DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+  	<param name="font4" type="text" default="" label="KC_FONT4 LABEL" description="KC_FONT4 DESC" />
+  	<param name="fontfile4" type="text" default="" label="KC_FONTFILE4 LABEL" description="KC_FONTFILE4 DESC" />
+  	<param name="selector4" type="text" default="" label="KC_SELECTOR4 LABEL" description="KC_SELECTOR4 DESC" />
+		<param name="font-size4" type="text" default="" label="KC_FONTSIZE4 LABEL" description="KC_FONTSIZE4 DESC" />
+    <param name="font-hover4" type="radio" default="0" label="KC_FONTHOVER4 LABEL" description="KC_FONTHOVER4 DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+  	<param name="font5" type="text" default="" label="KC_FONT5 LABEL" description="KC_FONT5 DESC" />
+  	<param name="fontfile5" type="text" default="" label="KC_FONTFILE5 LABEL" description="KC_FONTFILE5 DESC" />
+  	<param name="selector5" type="text" default="" label="KC_SELECTOR5 LABEL" description="KC_SELECTOR5 DESC" />
+		<param name="font-size5" type="text" default="" label="KC_FONTSIZE5 LABEL" description="KC_FONTSIZE5 DESC" />
+    <param name="font-hover5" type="radio" default="0" label="KC_FONTHOVER5 LABEL" description="KC_FONTHOVER5 DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+  	<param name="font6" type="text" default="" label="KC_FONT6 LABEL" description="KC_FONT6 DESC" />
+  	<param name="fontfile6" type="text" default="" label="KC_FONTFILE6 LABEL" description="KC_FONTFILE6 DESC" />
+  	<param name="selector6" type="text" default="" label="KC_SELECTOR6 LABEL" description="KC_SELECTOR6 DESC" />
+		<param name="font-size6" type="text" default="" label="KC_FONTSIZE6 LABEL" description="KC_FONTSIZE6 DESC" />
+    <param name="font-hover6" type="radio" default="0" label="KC_FONTHOVER6 LABEL" description="KC_FONTHOVER6 DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+  	<param name="font7" type="text" default="" label="KC_FONT7 LABEL" description="KC_FONT7 DESC" />
+  	<param name="fontfile7" type="text" default="" label="KC_FONTFILE7 LABEL" description="KC_FONTFILE7 DESC" />
+  	<param name="selector7" type="text" default="" label="KC_SELECTOR7 LABEL" description="KC_SELECTOR7 DESC" />
+		<param name="font-size7" type="text" default="" label="KC_FONTSIZE7 LABEL" description="KC_FONTSIZE7 DESC" />
+    <param name="font-hover7" type="radio" default="0" label="KC_FONTHOVER7 LABEL" description="KC_FONTHOVER7 DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+  	<param name="font8" type="text" default="" label="KC_FONT8 LABEL" description="KC_FONT8 DESC" />
+  	<param name="fontfile8" type="text" default="" label="KC_FONTFILE8 LABEL" description="KC_FONTFILE8 DESC" />
+  	<param name="selector8" type="text" default="" label="KC_SELECTOR8 LABEL" description="KC_SELECTOR8 DESC" />
+		<param name="font-size8" type="text" default="" label="KC_FONTSIZE8 LABEL" description="KC_FONTSIZE8 DESC" />
+    <param name="font-hover8" type="radio" default="0" label="KC_FONTHOVER8 LABEL" description="KC_FONTHOVER8 DESC">
+			<option value="1">yes</option>
+			<option value="0">no</option>
+		</param>
+		
+	</params>
+</install>

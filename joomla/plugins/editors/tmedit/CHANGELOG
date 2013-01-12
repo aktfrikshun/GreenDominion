@@ -1,0 +1,58 @@
+// TMEdit Changelog File
+// $Id: CHANGELOG.php,v 1.0 2009/06/25 10:20:31 bpfeifer Exp $
+/**
+* @ Content code
+* @ Package TMEdit
+* @ Copyright © 2004-2009 Bernhard Pfeifer - www.xhtmlsuite.com
+* @ Released under GNU/GPL v2.0
+* @ All rights reserved
+* @ Version $Revision: 1.0 $
+**/
+
+1. Copyright and Disclaimer
+---------------------------
+This application is opensource software released under the GPL.  Please
+see source code and the LICENSE file
+
+
+2. Changelog
+------------
+This is a non-exhaustive changelog for TMEdit 1.2.
+
+
+3. Legend
+---------
+# -&gt; Bug Fix
++ -&gt; Addition
+! -&gt; Change
+- -&gt; Removed
+
+-----------------------------------------------------------------------------------
+
+------------------- 1.2 Released - [25-Jun-2009 11:00 CET +1] -------------------
+
+ ! Changed license to GNU/GPL v2.0
+ + Added Safari browser support
+ ! Improved undo/redo functionality
+ - Removed redundantly loaded scripts
+ + Improved loading sequence
+ ! Updated help file
+ # Fixed IE context menu bug
+ # Fixed icon path in file manager
+ ! Converted html and script files to UTF-8 charset
+ + Set loading charset for scripts to UTF-8
+ + Added character encoding meta tags to html popups
+ - Removed popupwin.js as it was deprecated
+ # Fixed a bug in language file of context menu plugin
+ - Reverted back to English as current main language
+ ! Adjusted editor size
+ - Removed deprecated functions in core file
+ + Added namespaced array for scripts
+ + Added load event manager to handle window.onload
+ - Removed deprecated/proprietary defer attribute
+ ! Updated CSS
+ ! Rebrushed look of editor
+ # Fixed display of context menu
+ ! Updated some icons
+ - Removed unnecessary/deprecated files from installer
+ ! Cleaned up installer XML manifest

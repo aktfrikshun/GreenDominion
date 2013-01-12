@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="editors">
+	<name>Editor TMEdit</name>
+	<author>Team XHTMLSuite</author>
+	<authorEmail>contact@xhtmlsuite.com</authorEmail>
+	<authorUrl>www.xhtmlsuite.com</authorUrl>
+	<creationDate>June 2009</creationDate>
+	<copyright>(c) 2004-2009 Team XHTMLSuite</copyright>
+	<license>GPL</license>
+	<version>1.2</version>
+	<description>
+		<![CDATA[
+		<span style="font-size: 14px; font-weight: bold;">TMEdit v1.2 for Joomla! 1.5.x</span>
+		<br />TMEdit is a free WYSIWYG editor for Joomla! 1.5.x
+		<br />
+		<br />
+		<br />
+		<h2 style="font-weight: bold;">Want Intuitive and State-Of-The-Art Editing?</h2>
+		<br />
+		<div onmouseover="this.style.backgroundColor='#ccffff';" onmouseout="this.style.backgroundColor='transparent';" onclick="window.location.href='http://www.xhtmlsuite.com/editing-solutions/xhtmlsuite-in2it';"style="text-align: center; font-size: 30px; font-weight: bold; padding: 20px;"><a id="blink" href="http://www.xhtmlsuite.com/editing-solutions/xhtmlsuite-in2it" target="_blank" title="Get in2it now">Get in2it now!</a></div>
+		<h2 style="font-weight: bold;">XHTMLSuite in2it features at a glance</h2>
+		<br />
+		<h3 class="feature_check">Tabbed Toolbar</h3>
+		<p> The <a title="Click here for a Screenshot of the Tabbed Toolbar" target="_blank" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/tabbed_toolbar_01.jpg">Tabbed Toolbar</a> is designed to help you quickly find the functions that you need to edit your online contents. Functions are organised in thematic groups that are collected together under tabs. Each tab relates to a type of activity, such as editing text, inserting objects or reviewing content. The toolbar and tabs are completely customisable.</p>
+		<h3 class="feature_check">Properties Inspector</h3>
+		<p>The <a target="_blank" title="Click here for a Screenshot of the Properties Inspector - Images" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/pi_images_01.jpg">Properties Inspector</a> is a palette that displays all the properties or formatting for a selected object. It gives you access to HTML elements with just one click and let's you change their properties instantly. The appropriate Properties Inspector is dynamically loaded through AJAX.</p>
+		<h3 class="feature_check">Code Formatting and Syntax Highlighting</h3>
+		<p>When switching to HTML Source Code view, XHTMLSuite in2it will present the generated HTML nicely formatted with indents and linebreaks and <a target="_blank" title="Click here for a Screenshot of Code Formatting and Syntax Highlighting" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/syntax_highlighting_01.jpg">highlight the Source Code</a> in different colors, making it easy for you to review the structure and edit the HTML Source Code.</p>
+		<h3 class="feature_check">HTML or XHTML Output</h3>
+		<p>Select whether XHTMLSuite in2it shall output valid XHTML 1.0 or HTML 4.01 Code.</p>
+		<h3 class="feature_check">Accessibility Checker</h3>
+		<p>XHTMLSuite in2it's unique <a title="Click here for a Screenshot of the Accessibility Checker" target="_blank" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/accessibility_checker.jpg">Accessibility Checker</a> enables you to verify if your contents are accessible and will advise you of possible problems.</p>
+		<h3 class="feature_check">WYMIWYG Mode</h3>
+		<p>The <a title="Click here for a Screenshot of the WYMIWYG Mode" target="_blank" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/wymiwyg_mode.jpg">WYMIWYG Mode</a> (<dfn>What You Mean Is What You Get</dfn>) will leave details of the document's visual layout, and help you to concentrate on its structure and meaning, while giving you as much editing comfort as possible.</p>
+		<h3 class="feature_check">HTML Tidy</h3>
+		<p><a title="Click here for a Screenshot of HTML Tidy" target="_blank" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/html_tidy.jpg">HTML Tidy</a> is a program that will fix invalid HTML and thus ensures proper validation of your HTML code.</p>
+		<h3 class="feature_check">Format Preview</h3>
+		<p>All menus containing formatting options or content to be inserted provide you with a full <a target="_blank" title="Click here for a Screenshot of the Format Preview" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/format_preview.jpg">Format Preview</a>. This is the basic idea of <dfn>What You See Is What You Get</dfn>.</p>
+		<h3 class="feature_check">Flash&reg; Manager</h3>
+		<p>Upload and insert Flash&reg; Movies with ease into your content with the new <a title="Click here for a Screenshot of the Flash Manager" target="_blank" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/flash_manager_01.jpg">Flash&reg; Manager</a>. Add, edit and/or remove movie params directly through the Properties Inspector within the blink of an eye.</p>
+		<h3 class="feature_check">Image Manager</h3>
+		<p>Upload Images to your server and insert them into your contents with XHTMLSuite in2it's <a title="Click here for a Screenshot of the Image Manager" target="_blank" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/image_manager_01.jpg">Image Manager</a>. An integrated simple but smart <a title="Click here for a Screenshot of the Image Editor" target="_blank" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/image_editor.jpg">Image Editor</a> allows you to create copies of images and to scale and/or rotate them. Set upload limits and/or max. width and/or height allowed for uploaded images.</p>
+		<h3 class="feature_check">Document Manager</h3>
+		<p>Upload documents with the <a title="Click here for a Screenshot of the File Manager" target="_blank" href="http://www.xhtmlsuite.com/images/stories/products/xhtmlsuite/key_features/file_manager_01.jpg">Document Manager</a> (e. g. PDF, DOC, PPT, ZIP, RAR, TGZ, SWF, FLV, MOV, TXT, etc.) and create hyperlinks to these documents in your online articles.</p>
+		<br />
+		<h2 style="font-weight: bold;">Take a look at the <a href="http://www.xhtmlsuite.com/editing-solutions/xhtmlsuite-in2it/feature-comparison-in2it.html" target="_blank">Differences between TMEdit and XHTMLSuite in2it</a> (comparison table)</h2>
+		<br />
+		]]>
+	</description>
+	<files>
+		<filename>tmedit/CHANGELOG</filename>
+		<filename>tmedit/dialog.js</filename>
+		<filename>tmedit/tmedit.css</filename>
+		<filename>tmedit/tmedit.js</filename>
+		<filename>tmedit/index.html</filename>
+		<filename>tmedit/lang/en.js</filename>
+		<filename>tmedit/license/TMEdit_license.txt</filename>
+		<filename>tmedit/plugins/ContextMenu/context-menu.js</filename>
+		<filename>tmedit/plugins/ContextMenu/menu.css</filename>
+		<filename>tmedit/plugins/ContextMenu/lang/en.js</filename>
+		<filename>tmedit/plugins/CSS/css.js</filename>
+		<filename>tmedit/plugins/CSS/lang/en.js</filename>
+		<filename>tmedit/plugins/InsertSmiley/insert-smiley.js</filename>
+		<filename>tmedit/plugins/InsertSmiley/lang/en.js</filename>
+		<filename>tmedit/plugins/InsertSmiley/popups/insert_smiley.html</filename>
+		<filename>tmedit/popups/help.html</filename>
+		<filename>tmedit/popups/insert_image.php</filename>
+		<filename>tmedit/popups/insert_table.html</filename>
+		<filename>tmedit/popups/insert_link.php</filename>
+		<filename>tmedit/popups/mozilla_prefs.html</filename>
+		<filename>tmedit/popups/popup.js</filename>
+		<filename>tmedit/popups/select_character.html</filename>
+		<filename>tmedit/popups/select_color.html</filename>
+		<filename>tmedit/popups/ImageManager/config.inc.php</filename>
+		<filename>tmedit/popups/ImageManager/images.php</filename>
+		<filename>tmedit/popups/InsertFile/config.inc.php</filename>
+		<filename>tmedit/popups/InsertFile/files.php</filename>
+		<filename>tmedit/popups/InsertFile/insert_file.php</filename>
+		<filename>tmedit/popups/InsertFile/css/sortabletable.css</filename>
+		<filename>tmedit/popups/InsertFile/js/sortabletable.js</filename>
+		<filename>tmedit/popups/InsertFile/lang/lang-en.php</filename>
+		<filename>tmedit/images/ed_about.gif</filename>
+		<filename>tmedit/images/ed_align_center.gif</filename>
+		<filename>tmedit/images/ed_align_justify.gif</filename>
+		<filename>tmedit/images/ed_align_left.gif</filename>
+		<filename>tmedit/images/ed_align_right.gif</filename>
+		<filename>tmedit/images/ed_blank.gif</filename>
+		<filename>tmedit/images/ed_charmap.gif</filename>
+		<filename>tmedit/images/ed_color_bg.gif</filename>
+		<filename>tmedit/images/ed_color_fg.gif</filename>
+		<filename>tmedit/images/ed_copy.gif</filename>
+		<filename>tmedit/images/ed_custom.gif</filename>
+		<filename>tmedit/images/ed_cut.gif</filename>
+		<filename>tmedit/images/ed_format_bold.gif</filename>
+		<filename>tmedit/images/ed_format_italic.gif</filename>
+		<filename>tmedit/images/ed_format_strike.gif</filename>
+		<filename>tmedit/images/ed_format_sub.gif</filename>
+		<filename>tmedit/images/ed_format_sup.gif</filename>
+		<filename>tmedit/images/ed_format_underline.gif</filename>
+		<filename>tmedit/images/ed_help.gif</filename>
+		<filename>tmedit/images/ed_hr.gif</filename>
+		<filename>tmedit/images/ed_html.gif</filename>
+		<filename>tmedit/images/ed_image.gif</filename>
+		<filename>tmedit/images/ed_indent_less.gif</filename>
+		<filename>tmedit/images/ed_indent_more.gif</filename>
+		<filename>tmedit/images/ed_insert_image.gif</filename>
+		<filename>tmedit/images/ed_left_to_right.gif</filename>
+		<filename>tmedit/images/ed_linktofile.gif</filename>
+		<filename>tmedit/images/ed_list_bullet.gif</filename>
+		<filename>tmedit/images/ed_list_num.gif</filename>
+		<filename>tmedit/images/ed_link.gif</filename>
+		<filename>tmedit/images/ed_paste.gif</filename>
+		<filename>tmedit/images/ed_preview.gif</filename>
+		<filename>tmedit/images/ed_redo.gif</filename>
+		<filename>tmedit/images/ed_remove_format.gif</filename>
+		<filename>tmedit/images/ed_right_to_left.gif</filename>
+		<filename>tmedit/images/ed_show_0_border.gif</filename>
+		<filename>tmedit/images/ed_tableshowborders.gif</filename>
+		<filename>tmedit/images/ed_undo.gif</filename>
+		<filename>tmedit/images/frost.gif</filename>
+		<filename>tmedit/images/insert_table.gif</filename>
+		<filename>tmedit/images/silver.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_biggrin.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_confused.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_cool.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_cry.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_eek.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_evil.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_lol.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_mad.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_neutral.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_razz.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_redface.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_rolleyes.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_smile.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_twisted.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/emoticons/icon_wink.gif</filename>
+		<filename>tmedit/plugins/InsertSmiley/img/insert-smiley.gif</filename>
+		<filename>tmedit/popups/ImageManager/bannerfolder.gif</filename>
+		<filename>tmedit/popups/ImageManager/btnBack.gif</filename>
+		<filename>tmedit/popups/ImageManager/btnFolderNew.gif</filename>
+		<filename>tmedit/popups/ImageManager/btnFolderUp.gif</filename>
+		<filename>tmedit/popups/ImageManager/dots.gif</filename>
+		<filename>tmedit/popups/ImageManager/edit_trash.gif</filename>
+		<filename>tmedit/popups/ImageManager/folder.gif</filename>
+		<filename>tmedit/popups/ImageManager/locked.gif</filename>
+		<filename>tmedit/popups/ImageManager/unlocked.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/bannerfolder.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/blank.png</filename>
+		<filename>tmedit/popups/InsertFile/images/btnBack.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/btnFolderNew.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/btnFolderUp.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/dots.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/downsimple.png</filename>
+		<filename>tmedit/popups/InsertFile/images/edit_active.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/edit_trash.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/locked.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/unlocked.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/upsimple.png</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/blue_folder.png</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/def_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/doc_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/folder_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/gif_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/gz_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/html_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/jpg_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/mov_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/pdf_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/png_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/ppt_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/rar_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/txt_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/xls_small.gif</filename>
+		<filename>tmedit/popups/InsertFile/images/ext/zip_small.gif</filename>
+		<filename plugin="tmedit">tmedit.php</filename>
+	</files>
+	<params>
+		<param name="insertsmiley" type="radio" default="1" label="Smiley Plugin" description="If set to yes, this will allow Smilies to be inserted into the edited content.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="contextmenu" type="radio" default="1" label="Context Menu Plugin" description="If set to yes, have a context menu on right click and edit table/image/link properties, cut, copy, paste, remove HTML elements">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="css" type="radio" default="1" label="CSS Plugin" description="If set to yes, a dropdown menu with CSS styles will be activated.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="csspreview" type="radio" default="1" label="CSS Preview" description="If set to yes, your current CSS will be used for preview when editing.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+<install>

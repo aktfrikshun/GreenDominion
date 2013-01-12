@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5">
+  <name>PHP File inclusion Module</name>
+  <author>Bernhard Wehinger</author>
+  <creationDate>Sep 17, 2009</creationDate>
+  <copyright>(C) 2009 dynatec.at</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>office@dynatec.at</authorEmail>
+  <authorUrl>www.dynatec.at</authorUrl>
+  <version>1.0.0</version>
+  <description>
+  	<![CDATA[This module provides a simple way to include a custom PHP script into a Joomla module.
+	]]>
+  </description>
+  <files>
+    <filename module="mod_phpfile">mod_phpfile.php</filename>
+  </files>
+    <params>
+		<param name="phpfile" type="text" default="customcode/" label="PHP File" description="Joomla!Root/customcode/phpfile.php" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Suffix to append to the CSS class attribute of this module." />
+		<param name="suppress_errors" type="radio" default="0" label="Suppress errors" description="Select whether to display if there have been troubles including the php file">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+  </params>
+</install>

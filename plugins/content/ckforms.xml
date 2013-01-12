@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - CKforms Form Display</name>
+	<author>Cookex Developpment Team</author>
+	<creationDate>20/09/2009</creationDate>
+	<copyright>Copyright Info</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@cookex.eu</authorEmail>
+	<authorUrl>ckforms.cookex.eu</authorUrl>
+	<version>1.3.4</version>
+	<description><![CDATA[
+	<p>Thank you for the installation of CK Forms 1.3.4 Plug-in</p>
+	<p>Insert the following tag : {ckform <b><i>formname</i></b>} and replace the characters 
+	set <b><i>formname</i></b> with the Ckform fom name you want to insert.<br/>
+	The form have to be created with the 
+	Ckform component back-end. <br/><br/>If you have any problems, 
+	contact <a href=\"mailto:webmaster@cookex.eu\">webmaster@cookex.eu</a><br/>
+	Visit the <a href=\"http://www.cookex.eu\">CK Form web site</a> for the lastest news 
+	and update.<br/><br/>
+	]]></description>
+	<files>
+		<filename plugin="ckforms">ckforms.php</filename>
+	</files>
+	
+	<params>
+		<param name="displaytitle" type="radio" default="1" label="Display form title" description="Display form title">
+ 			<option value="1">YES</option>
+			<option value="0">NO</option>
+ 		</param>
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Page Class Suffix" description="Page Class Suffix" />
+	</params>
+	
+</install>

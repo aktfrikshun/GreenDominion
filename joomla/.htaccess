@@ -1,0 +1,8 @@
+rewriteengine on
+
+RewriteCond %{HTTP_HOST} ^greendominion\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.greendominion\.com$
+RewriteCond %{REQUEST_URI} !^/test/
+RewriteRule (.*) /test/$1 [L]
+
+

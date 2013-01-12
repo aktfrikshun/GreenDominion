@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+<name>Content- PDF-Embed</name>
+	<author>Tekdi Web Solutions</author>
+	<creationDate>June 2008</creationDate>
+	<copyright>Tekdi Web Solutions. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>extensions@tekdi.net</authorEmail>
+	<authorUrl>www.tekdi.net</authorUrl>
+	<version>1.5.0</version>
+	<description>
+	<![CDATA[
+	<h2>Tekdi Joomla  &laquo; Skyper Plugin! &raquo;</h2>
+	<h3>A superb Plugin which allows you to embed pdf. Joomla 1.5 Ready. </h3>
+	]]>
+	</description>
+	<files>
+		<filename plugin="pdf_embed15">pdf_embed15.php</filename>
+	</files>
+	<params>
+	</params>
+</install>

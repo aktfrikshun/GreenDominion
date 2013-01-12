@@ -1,0 +1,199 @@
+@charset "utf-8";
+/*
+ * @version		v1.0.0
+ * @package 	Contact Us Pro
+ * @copyright	Copyright (c) 2010 C.S. Wilson and Associates, Inc. All rights reserved.
+ * @website		www.c-s-wilson.com
+ * @license		GNU/GPL, see license.txt
+ */
+
+.contactusWrapper fieldset{
+	padding:15px;
+	margin:0px;
+}
+.contactusWrapper legend{
+	padding:15px 0px 15px 0px;
+	color:#135cae;
+}
+.contactusWrapper .step1,
+.contactusWrapper .step2,
+.contactusWrapper .step3{
+	color:#e1e1e1;
+	font-size:35px;
+	font-weight:normal;
+	float:right;
+	width:auto;
+	background:#FFF;
+	padding:0px 5px 0px 8px;
+	margin:-32px -10px 0px 0px;
+}
+.contactusWrapper select.inputbox{
+	background:#f6f9fc;
+	border:1px solid #bdc7d2;
+	font-size:12px;
+	color:#586779;
+	padding:4px 5px;
+	width:218px;
+	margin-bottom:4px;
+	display:block;
+}
+.contactusWrapper .hdyhau_label{
+	font-weight:bold;
+	margin-top:20px;
+}
+#hdyhauOtherWrapper{
+	display:none;
+}
+
+/*** Spry Text Field Validation **********************************/
+
+/** Normal State **/
+.contactusWrapper .inputbox{
+	background:#f6f9fc;
+	border:1px solid #bdc7d2;
+	font-size:12px;
+	color:#586779;
+	padding:4px 8px;
+	width:200px;
+	margin-bottom:4px;
+	display:block;
+}
+.contactusWrapper .textfieldRequired{
+	background:url(../images/textfield_required.png) no-repeat top right #f6f9fc;
+	background-position:113px 2px;
+	border:1px solid #bdc7d2;
+	font-size:12px;
+	color:#586779;
+	padding:4px 8px;
+	width:200px;
+	margin-bottom:4px;
+}
+
+/** Focus State **/
+/*.contactusWrapper .textfieldFocusState input, .contactusWrapper input.textfieldFocusState{
+	background:url(../images/textfield_required.png) no-repeat top right #edf6ff;
+	background-position:113px 2px;
+	border:1px solid #a0c4eb;
+	color:#515d6c;
+	outline:none;
+}
+.contactusWrapper .inputbox:focus{
+	background:#edf6ff;
+	border:1px solid #a0c4eb;
+	color:#515d6c;
+	outline:none;
+}*/
+/** Valid State **/
+.contactusWrapper .textfieldValidState input, .contactusWrapper input.textfieldValidState{
+	background:url(../images/textfield_required.png) no-repeat top right #faffd3;
+	background-position:113px -54px;
+	border:1px solid #b1bd5d;
+	color:#7d865d;
+	outline:none;
+}
+/** Invalid State **/
+.contactusWrapper input.textfieldRequiredState, .contactusWrapper .textfieldRequiredState input, 
+.contactusWrapper input.textfieldMinValueState, .contactusWrapper .textfieldMinValueState input, 
+.contactusWrapper input.textfieldMaxValueState, .contactusWrapper .textfieldMaxValueState input, 
+.contactusWrapper input.textfieldMinCharsState, .contactusWrapper .textfieldMinCharsState input, 
+.contactusWrapper input.textfieldMaxCharsState, .contactusWrapper .textfieldMaxCharsState input{
+	background:url(../images/textfield_required.png) no-repeat top right #ffe2e2;
+	background-position:113px -27px;
+	border:1px solid #ce9696;
+	color:#be6363;
+	outline:none;
+}
+.contactusWrapper input.textfieldInvalidFormatState, .contactusWrapper .textfieldInvalidFormatState input{
+	background:url(../images/textfield_required.png) no-repeat top right #ffe2e2;
+	background-position:113px -85px;
+	border:1px solid #ce9696;
+	color:#be6363;
+	outline:none;
+}
+
+/*** Spry Textfield Confirmation **********************************/
+
+/** Normal State **/
+.contactusWrapper .confirmRequired{
+	background:url(../images/textfield_required.png) no-repeat top right #f6f9fc;
+	background-position:113px 2px;
+	border:1px solid #bdc7d2;
+	font-size:12px;
+	color:#586779;
+	padding:4px 8px;
+	width:200px;
+	margin-bottom:4px;
+}
+
+/** Valid State **/
+.contactusWrapper .confirmValidState input, .contactusWrapper input.confirmValidState{
+	background:url(../images/textfield_required.png) no-repeat top right #faffd3;
+	background-position:113px -54px;
+	border:1px solid #b1bd5d;
+	color:#7d865d;
+	outline:none;
+}
+
+/** Invalid State **/
+.contactusWrapper input.confirmRequiredState, .contactusWrapper .confirmRequiredState input,
+.contactusWrapper input.confirmInvalidState, .contactusWrapper .confirmInvalidState input{
+	background:url(../images/textfield_required.png) no-repeat top right #ffe2e2;
+	background-position:113px -113px;
+	border:1px solid #ce9696;
+	color:#be6363;
+	outline:none;
+}
+
+/** Focus State **/
+/*.contactusWrapper .confirmFocusState input, .contactusWrapper input.confirmFocusState{
+	background:url(../images/textfield_required.png) no-repeat top right #edf6ff;
+	background-position:113px 2px;
+	border:1px solid #a0c4eb;
+	color:#515d6c;
+	outline:none;
+}*/
+
+/*** Spry Textarea Validation **********************************/
+
+/** Normal State **/
+.contactusWrapper .textarea{
+	background:#f6f9fc;
+	border:1px solid #bdc7d2;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#586779;
+	padding:4px 8px;
+	width:218px;
+	height:74px;
+}
+/** Normal State **/
+.contactusWrapper .textareaRequired{
+	background:url(../images/textarea_required.png) no-repeat top right #f6f9fc;
+	background-position:133px 2px;
+}
+/** Valid State **/
+.contactusWrapper .textareaValidState textarea, .contactusWrapper textarea.textareaValidState{
+	background-color:#faffd3;
+	background-position:133px -158px;
+	border:1px solid #b1bd5d;
+	color:#7d865d;
+}
+/** Invalid State **/
+.contactusWrapper textarea.textareaRequiredState, .contactusWrapper .textareaRequiredState textarea, 
+.contactusWrapper textarea.textareaMinCharsState, .contactusWrapper .textareaMinCharsState textarea, 
+.contactusWrapper textarea.textareaMaxCharsState, .contactusWrapper .textareaMaxCharsState textarea{
+	background-position:133px -78px;
+	background-color:#ffe2e2;
+	border:1px solid #ce9696;
+	color:#be6363;
+	outline:none;
+}
+/** Focus State **/
+.contactusWrapper .textareaFocusState textarea, .contactusWrapper textarea.textareaFocusState{
+	background:url(../images/textarea_required.png) no-repeat top right #edf6ff;
+	background-position:133px 2px;
+	border:1px solid #a0c4eb;
+	color:#515d6c;
+	outline:none;
+}
+

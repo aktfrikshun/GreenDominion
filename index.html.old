@@ -1,0 +1,69 @@
+<html>
+<head>
+<style type="text/css">
+/* pushes the page to the full capacity of the viewing area */
+html {height:100%;}
+body {height:100%; margin:0; padding:0;}
+p,a,h1 {color: green;
+	font-family: "Apple Chancery";
+	font-style: oblique;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: x-large;
+	line-height: 100%;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-decoration: none;
+	text-transform: none;
+	text-align: left;
+	text-indent: 0ex;}
+
+
+/* prepares the background image to full capacity of the viewing area */
+#bg {position:fixed; top:0; left:0; width:100%; height:100%;}
+/* places the content ontop of the background image */
+#content {position:absolute; z-index:1; width:800px; top:50px; left:50px;}
+#mail {position:absolute; z-index:1; top:500px; left:1000px;}
+</style>
+<!--[if gt IE 5]>
+<style type="text/css">
+/* some css fixes for IE browsers */
+html {overflow-y:hidden;}
+body {overflow-y:auto;}
+p,a,h1 {color: green;
+	font-family: "Apple Chancery";
+	font-style: oblique;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: large;
+	line-height: 100%;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-decoration: none;
+	text-transform: none;
+	text-align: left;
+	text-indent: 0ex;}
+#bg {position:absolute; z-index:-1;}
+#content {position:absolute; top:50px; left:50px;}
+#mail {position:absolute; left:700px; top:500px;}
+</style>
+<![endif]-->
+</head>
+
+<body>
+<div id="bg"><img src="mt5.jpg" width="100%" height="100%" alt=""></div>
+<div id="content">
+<!--<h1 align="center">Green Dominion</h1>-->
+<p align="left">
+Green Dominion is all about preserving the environment and becoming better stewards. Our purpose is to help divert recyclables from the solid waste stream headed to landfills. Serving the Moving & Storage, Office Furniture, Commercial Construction and other parallel industries, Green Dominion is designing and manufacturing products that derive from 100% recycled content which will replace current inferior performing/disposable products that end up in the landfill.  New "green" products to protect your commercial jobsite floors, walls, corners and elevators during any phase of construction, furniture installation or office moves.
+<br><br>Reduce - Reuse - Recycle ...Remember <br><br>
+</p>
+<p align="center">
+This site is currently under construction
+</p>
+</div>
+<div id="mail">
+<a href="./mailit.php">info@greendominion.com</a>
+</div>
+</body>
+</html>

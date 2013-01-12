@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.width2{ width:990px;}.ArticleTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #069;
+}
+.Headline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #069;
+}
+.LinksArticle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #069;
+	text-decoration: underline;
+}
+.SubheaderArticle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #096;
+}

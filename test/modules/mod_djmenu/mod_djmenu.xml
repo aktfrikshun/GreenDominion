@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>DJ-Menu</name>
+	<creationDate>December 2010</creationDate>	
+	<author>Blue Constant Media LTD</author>
+	<copyright>Copyright (C) 2010 Blue Constant Media LTD, All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses GNU/GPL</license>
+	<authorEmail>contact@design-joomla.eu</authorEmail>
+	<authorUrl>http://design-joomla.eu</authorUrl>
+	<version>1.5.0 beta 5</version>
+	<description>DJ Menu module with mootools effects</description>
+	<files>
+		<filename module="mod_djmenu">mod_djmenu.php</filename>
+		<filename>mod_djmenu.xml</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+		<folder>assets</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">lang/en-GB.mod_djmenu.ini</language>
+	</languages>
+	<params>
+		<param name="menu" type="mos_menu" default="mainmenu" label="MOD_DJMENU_MENU_NAME" description="MOD_DJMENU_MENU_NAME_DESC" />
+		<param name="css" type="radio" default="1" label="MOD_DJMENU_CSS" description="MOD_DJMENU_CSS_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="moo" type="radio" default="1" label="MOD_DJMENU_MOO" description="MOD_DJMENU_MOO_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="wrapper" type="text" default="" label="MOD_DJMENU_WRAPPER" description="MOD_DJMENU_WRAPPER_DESC" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		
+	</params>
+	<params group="advanced">
+		<param name="@spacer" type="spacer" default="MOD_DJMENU_EFFECTS_PARAMS" label="" description="" />
+		<param name="height_fx" type="radio" default="1" label="MOD_DJMENU_VERTICAL" description="MOD_DJMENU_VERTICAL_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="width_fx" type="radio" default="1" label="MOD_DJMENU_HORIZONTAL" description="MOD_DJMENU_HORIZONTAL_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="opacity_fx" type="radio" default="1" label="MOD_DJMENU_FADE" description="MOD_DJMENU_FADE_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="height_fx_sub" type="radio" default="1" label="MOD_DJMENU_VERTICAL_SUB" description="MOD_DJMENU_VERTICAL_SUB_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="width_fx_sub" type="radio" default="1" label="MOD_DJMENU_HORIZONTAL_SUB" description="MOD_DJMENU_HORIZONTAL_SUB_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="opacity_fx_sub" type="radio" default="1" label="MOD_DJMENU_FADE_SUB" description="MOD_DJMENU_FADE_SUB_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="effect" type="list" default="Cubic" label="MOD_DJMENU_TRANSITION" description="MOD_DJMENU_TRANSITION_DESC">
+			<option value="linear">Linear</option>
+			<option value="Cubic">Cubic</option>
+			<option value="Expo">Expo</option>
+			<option value="Circ">Circ</option>
+			<option value="Back">Back</option>
+			<option value="Bounce">Bounce</option>
+			<option value="Elastic">Elastic</option>
+		</param>
+		<param name="duration" type="text" default="300" size="10" label="MOD_DJMENU_DURATION" description="MOD_DJMENU_DURATION_DESC" />
+		<param name="delay" type="text" default="2000" size="10" label="MOD_DJMENU_DELAY" description="MOD_DJMENU_DELAY_DESC" />
+		
+	</params>
+</install>

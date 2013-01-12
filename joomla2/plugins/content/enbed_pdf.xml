@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+    <name>Enbed pdf's</name>
+    <author>Maik Heinelt</author>
+    <creationDate>09 September 2010</creationDate>
+    <copyright>(C)2010 Maik Heinelt, http://www.heinelt.info</copyright>
+    <license>http://www.gnu.org/copyright/gpl.html GNU/GPL</license>
+    <authorEmail>maik@heinelt.info</authorEmail>
+    <authorUrl>www.heinelt.info</authorUrl>
+    <version>1.7</version>
+    <description>PLGCONTENT_SHS_DESC</description>
+   <install>
+    	<installfile>install.enbed_pdf.php</installfile>
+	</install>
+    <files>
+        <filename plugin="enbed_pdf">enbed_pdf.php</filename>
+        <filename plugin="browser">browser.php</filename>
+        <filename plugin="proxy">proxy.php</filename>
+    </files>
+    <languages>
+		<language tag="en-GB">en-GB.plg_content_enbed_pdf.ini</language>
+		<language tag="de-DE">de-DE.plg_content_enbed_pdf.ini</language>
+	</languages>
+    <params>
+		<param name="mode" type="list" default="1" label="Default pdf viewer" description="Select how pdf's will be displayed as default">
+			<option value="0">Adobe pdf browser plugin</option>
+			<option value="1">Google viewer</option>
+		</param>
+  		<param name="dheight" type="text" default="400" label="Default height" size="6" description="Enter the default height of pdf file. This value will be used, if no height is given within the string" />
+		<param name="dwidth" type="text" default="300" label="Default width" size="6" description="Enter the default width of pdf file. This value will be used, if no height is given within the string" />
+		<param name="ar_toolbar" type="radio" default="1" label="Show Adobe Reader Toolbar" description="Select here, if as default, Adobe Reader will show toolbar, nor not.">
+			<option value="0">Disabled</option>
+			<option value="1">Enabled</option>
+		</param>
+		<param name="ar_navpanes" type="radio" default="1" label="Show Adobe Reader Navpanels" description="Select here, if as default, Adobe Reader will show navpanels, nor not.">
+			<option value="0">Disabled</option>
+			<option value="1">Enabled</option>
+		</param>
+		<param name="ar_scrollbar" type="radio" default="1" label="Show Adobe Reader Scrollbar" description="Select here, if as default, Adobe Reader will show scrollbar, nor not.">
+			<option value="0">Disabled</option>
+			<option value="1">Enabled</option>
+		</param>
+		<param name="ar_searchbar" type="radio" default="0" label="Show Adobe Reader Searchbar" description="Select here, if as default, Adobe Reader will show searchbar, nor not.">
+			<option value="0">Disabled</option>
+			<option value="1">Enabled</option>
+		</param>
+		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="alt_link" type="radio" default="0" label="Show link to pdf" description="For some reason, the pdf file will not displayed. For that behavior, it could make sence to show a simple comment with the link to pdf file.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="link_comment" type="text" default="Can't see pdf? Click this link: " label="PDF Link Comment" size="40" description="If the pdf will not be displayed, and this function is enabled, this comment will shown under the viewer " />
+		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="proxy" type="radio" default="0" label="Enable Proxy" description="For using Internet Explorer 8 or higher in connection with Google Viewer, pdf files will not be displayed by default. To avoid this behavior, the google data can be proxified.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+ </install>

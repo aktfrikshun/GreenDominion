@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Contact Us Form Layout">
+		<message>
+			This is the default contact us form layout
+		</message>
+	</layout>
+	<state>
+		<name>Contact Us Form Layout</name>
+		<description>This is the default contact us form layout</description>
+		<params>
+			<param name="@spacer" type="spacer" default="&lt;img src=&quot;components/com_contactuspro/images/contact_info.png&quot; align=&quot;left&quot;&gt;" />
+			<param name="@spacer" type="spacer" default="The following company contact information will be displayed above the contact form." />
+			<param name="displaytitle" type="list" default="" label="Enable Page Title" description="">
+			  <option value="1">Enabled</option>
+			  <option value="0">Disabled</option>
+			</param>
+			<param name="title" type="text" default="" label="Company Name" description="" size="50" />
+			<param name="phone1" type="text" default="" label="Phone Number" description="" size="50" />
+			<param name="phone2" type="text" default="" label="Toll Free Number" description="" size="50" />
+			<param name="fax" type="text" default="" label="Fax Number" description="" size="50" />
+			<param name="address" type="textarea" default="" label="Mailing Address" description="" rows="6" cols="50" />
+		
+			<param name="@spacer" type="spacer" default=" " />
+			<param name="@spacer" type="spacer" default="&lt;img src=&quot;components/com_contactuspro/images/email_info.png&quot; align=&quot;left&quot;&gt;" />
+			<param name="@spacer" type="spacer" default="The following are the field validation settings used by the contact form." />
+		
+			<param name="subject" type="text" default="" label="Email Subject" description="" size="50" />
+			<param name="emailfrom" type="text" default="no-reply@yourdomain.com" label="Email From" description="" size="50" />
+			<param name="email" type="textarea" default="you@yourdomain.com" label="Email(s) To" description="Email(s) will be submitted to the following addresses" rows="6" cols="50" />
+		
+			<param name="@spacer" type="spacer" default=" " />
+			<param name="@spacer" type="spacer" default="&lt;img src=&quot;components/com_contactuspro/images/recaptcha_info.png&quot; align=&quot;left&quot;&gt;" />
+			<param name="@spacer" type="spacer" default="The following are the reCAPTCHA settings used by the contact form,&lt;br&gt;if you do not have your keys yet, not a problem; &lt;a href=&quot;https://www.google.com/recaptcha/admin/create&quot; target=&quot;_blank&quot;&gt;reCAPTCHA Sign Up &lt;/a&gt;" />
+			<param name="enableReCaptcha" type="list" default="0" label="Enable reCaptcha?" description="">
+			  <option value="0">Disabled</option>
+			  <option value="1">Enabled</option>
+			</param>
+			<param name="reCaptchaPublicKey" type="text" default="" label="Public Key" description="" size="60" />
+			<param name="reCaptchaPrivateKey" type="text" default="" label="Private Key" description="" size="60" />
+			<param name="reCaptchaTheme" type="list" default="red" label="Select a Theme" description="">
+			  <option value="red">Red</option>
+			  <option value="white">White</option>
+			  <option value="blackglass">Black</option>
+			  <option value="clean">Clean</option>
+			</param>
+		</params>
+		<advanced>
+			
+			<param name="disName" type="list" default="1" label="Enable Name" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disNameRequired" type="list" default="1" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			
+			<param type="spacer" />
+	
+			<param name="disCompany" type="list" default="1" label="Enable Company" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disCompanyRequired" type="list" default="1" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			
+			<param type="spacer" />
+	
+			<param name="disEmail" type="list" default="1" label="Enable Email" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disEmailRequired" type="list" default="1" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			<param name="disEmailEnforcePattern" type="list" default="email" label="Enforce Pattern?" description="">
+			  <option value="none">No</option>
+			  <option value="email">Yes</option>
+			</param>
+			<param name="disEmailConfirmation" type="list" default="1" label="Enable field confirmation?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+	
+			<param type="spacer" />
+	
+			<param name="disAddress" type="list" default="1" label="Enable Address" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disAddressRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+	
+			<param type="spacer" />
+	
+			<param name="disCity" type="list" default="1" label="Enable City" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disCityRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			
+			<param type="spacer" />
+	
+			<param name="disState" type="list" default="1" label="Enable State" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disStateRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+	
+			<param type="spacer" />
+	
+			<param name="disZip" type="list" default="1" label="Enable Zip Code" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disZipRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			<param name="disZipEnforcePattern" type="list" default="none" label="Enforce Pattern?" description="">
+			  <option value="none">No</option>
+			  <option value="zip_code">Yes</option>
+			</param>
+			<param name="disZipValidationFormat" type="list" default="zip_us5" label="Zip Code Format" description="">
+			  <option value="zip_us5">Zip: US 5 Dig.</option>
+			  <option value="zip_us9">Zip: US 9 Dig.</option>
+			  <option value="zip_uk">Zip: UK</option>
+			  <option value="zip_canada">Zip: Canada</option>
+			</param>
+	
+			<param type="spacer" />
+	
+			<param name="disCountry" type="list" default="1" label="Enable Country" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disCountryRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+	
+			<param type="spacer" />
+	
+			<param name="disHdyhau" type="list" default="1" label="Enable How did you hear about us" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+	
+			<param type="spacer" />
+	
+			<param name="disHomePhone" type="list" default="1" label="Enable Home Phone" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disHomePhoneRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			<param name="disHomePhoneEnforcePattern" type="list" default="none" label="Enforce Pattern?" description="">
+			  <option value="none">No</option>
+			  <option value="phone_number">Yes</option>
+			</param>
+	
+			<param type="spacer" />
+	
+			<param name="disMobilePhone" type="list" default="1" label="Enable Mobile Phone" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disMobilePhoneRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			<param name="disMobilePhoneEnforcePattern" type="list" default="none" label="Enforce Pattern?" description="">
+			  <option value="none">No</option>
+			  <option value="phone_number">Yes</option>
+			</param>
+			
+			<param type="spacer" />
+	
+			<param name="disSubject" type="list" default="1" label="Enable Subject" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disSubjectRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			
+			<param type="spacer" />
+			
+			<param name="disMessage" type="list" default="1" label="Enable Message" description="">
+			  <option value="1">Yes</option>
+			  <option value="0">No</option>
+			</param>
+			<param name="disMessageRequired" type="list" default="0" label="Is this field required?" description="">
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</param>
+			
+			<param type="spacer" />
+			
+			<param name="HTML" type="textarea" default="&lt;!-- Site Contact Information Start --&gt;&#xD;&lt;fieldset&gt;&#xD;&lt;legend&gt;{LEGEND_STEP0}&lt;/legend&gt;&#xD;&lt;table width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;4&quot; cellpadding=&quot;0&quot;&gt;&#xD;&lt;tr&gt;&#xD;&lt;td colspan=&quot;2&quot; align=&quot;left&quot;&gt;&lt;strong&gt;{YOUR_COMPANY_NAME}&lt;/strong&gt;&lt;/td&gt;&#xD;&lt;/tr&gt;&#xD;&lt;tr&gt;&#xD;&lt;td colspan=&quot;2&quot; align=&quot;left&quot;&gt;{YOUR_ADDRESS}&lt;br&gt;&lt;/td&gt;&#xD;&lt;/tr&gt;&#xD;&lt;tr&gt;&#xD;&lt;td colspan=&quot;2&quot; align=&quot;left&quot;&gt;&lt;/td&gt;&#xD;&lt;/tr&gt;&#xD;&lt;tr&gt;&#xD;&lt;td width=&quot;5%&quot; align=&quot;right&quot; nowrap=&quot;nowrap&quot;&gt;Phone:&lt;/td&gt;&#xD;&lt;td align=&quot;left&quot;&gt;{YOUR_PHONE}&lt;/td&gt;&#xD;&lt;/tr&gt;&#xD;&lt;tr&gt;&#xD;&lt;td align=&quot;right&quot; nowrap=&quot;nowrap&quot;&gt;Toll Free:&lt;/td&gt;&#xD;&lt;td align=&quot;left&quot;&gt;{YOUR_TOLL_FREE_PHONE}&lt;/td&gt;&#xD;&lt;/tr&gt;&#xD;&lt;tr&gt;&#xD;&lt;td align=&quot;right&quot; nowrap=&quot;nowrap&quot;&gt;Fax:&lt;/td&gt;&#xD;&lt;td align=&quot;left&quot;&gt;{YOUR_FAX}&lt;/td&gt;&#xD;&lt;/tr&gt;&#xD;&lt;/table&gt;&#xD;&lt;/fieldset&gt;&#xD;&lt;!-- Site Contact Information End --&gt;&#xD;&#xD;&lt;!-- Users Contact Information Start --&gt;&#xD;&lt;fieldset&gt;&#xD;&lt;legend&gt;{LEGEND_STEP1}&lt;/legend&gt;&#xD;&lt;div class=&quot;step1&quot;&gt;{LEGEND_STEP1_NUM}&lt;/div&gt;&#xD;{USERS_NAME_FIELD}&#xD;{USERS_COMPANY_FIELD}&#xD;{USERS_EMAIL_FIELD}&#xD;{USERS_EMAIL_CONFIRM_FIELD}&#xD;{USERS_ADDRESS_FIELD}&#xD;{USERS_CITY_FIELD}&#xD;{USERS_STATE_FIELD}&#xD;{USERS_ZIP_FIELD}&#xD;{USERS_COUNTRY_FIELD}&#xD;{USERS_HOME_PHONE_FIELD}&#xD;{USERS_MOBILE_PHONE_FIELD}&#xD;{USERS_HDYHAU_SELECT}&#xD;&lt;/fieldset&gt;&#xD;&lt;!-- Users Contact Information End --&gt;&#xD;&#xD;&lt;!-- Message Form Start --&gt;&#xD;&lt;fieldset&gt;&#xD;&lt;legend&gt;{LEGEND_STEP2}&lt;/legend&gt;&#xD;&lt;div class=&quot;step2&quot;&gt;{LEGEND_STEP2_NUM}&lt;/div&gt;&#xD;{MESSAGE_SUBJECT_FIELD}&#xD;{MESSAGE_MESSAGE_FIELD}&#xD;&lt;/fieldset&gt;&#xD;&lt;!-- Message Form End --&gt;&#xD;&#xD;&lt;!-- reCAPTCHA Form Start --&gt;&#xD;&lt;fieldset&gt;&#xD;&lt;legend&gt;{LEGEND_STEP3}&lt;/legend&gt;&#xD;&lt;div class=&quot;step2&quot;&gt;{LEGEND_STEP3_NUM}&lt;/div&gt;&#xD;{RECAPTCHA_FIELD}&#xD;&lt;/fieldset&gt;&#xD;&lt;!-- reCAPTCHA Form End --&gt;&lt;br&gt;&lt;br&gt;&#xD;{BUTTON_SUBMIT} {BUTTON_RESET} {BUTTON_CANCEL}" label="Custom HTML" description="This is the template HTML code that controls the layout of HTML within the contact form" rows="12" cols="60" />
+			
+		</advanced>
+	</state>
+</metadata>
